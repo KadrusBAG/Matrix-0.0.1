@@ -14,6 +14,7 @@ bool proverka_mat(int mat[3][3]){
                 break;
             }
         }
+        if(!(result)){break;}
     }
     return result;
 }
